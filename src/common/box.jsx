@@ -38,7 +38,19 @@ const Box = () => {
                     </div>
                 </div>
             </div>
+            <div className="box-form-blackfriday">
+                <h3> برای اینکه زودتر از همه از تخفیف ها با خبر شید فرم زیر را پر کنید !</h3>
+                <form action="#" className="form-black">
+                    <input type="text" className="form-control w-50" placeholder="شماره تماس خودرا وارد کنید" name="tel" />
+                    <input type="submit" className="btn btn-danger" value="ارسال اطلاعات" />
+                </form>
+            </div>
             <Slider1 />
+
+
+          
+
+
         </main>
     );
 }

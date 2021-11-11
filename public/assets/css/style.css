@@ -2,6 +2,9 @@
     font-family: "lalezar";
     src: url("../font/Lalezar-Regular.ttf");
 }
+body{
+    overflow-x: hidden;
+}
 * {
     color: #e02401;
 }
@@ -383,4 +386,16 @@ a.tick-credits {
 }
 .tick-group {
     margin-right: 22px;
+}
+.box-form-blackfriday{
+    margin-top: 50px;
+}
+.form-black input{
+    display: block;
+    margin: 0 auto;
+}
+.form-black input[type="submit"]{
+    margin-top: 20px;
+    width: 30%;
+    margin-bottom: 50px;
 }
