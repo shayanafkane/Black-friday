@@ -2,6 +2,13 @@
     font-family: "lalezar";
     src: url("../font/Lalezar-Regular.ttf");
 }
+@font-face {
+    font-family: "irsans";
+    src: url('../font/Iranian\ Sans.ttf');
+}
+input{
+    font-family: "irsans";
+}
 body {
     overflow-x: hidden;
 }
@@ -10,7 +17,7 @@ body {
 }
 .header-box {
     margin-top: 50px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 .header-1 {
     transform: translateY(30px);
