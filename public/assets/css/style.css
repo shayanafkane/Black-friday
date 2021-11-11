@@ -2,7 +2,7 @@
     font-family: "lalezar";
     src: url("../font/Lalezar-Regular.ttf");
 }
-body{
+body {
     overflow-x: hidden;
 }
 * {
@@ -24,6 +24,9 @@ h5 {
 }
 h1 {
     font-size: 120px;
+    background: -webkit-linear-gradient(#e41f27, #3a0e0e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .box-img-right,
 .box-img-left {
@@ -387,15 +390,60 @@ a.tick-credits {
 .tick-group {
     margin-right: 22px;
 }
-.box-form-blackfriday{
+.box-form-blackfriday {
     margin-top: 50px;
 }
-.form-black input{
+.form-black input {
     display: block;
     margin: 0 auto;
 }
-.form-black input[type="submit"]{
+.form-black input[type="text"] {
+    width: 50%;
+}
+.form-black input[type="submit"] {
     margin-top: 20px;
     width: 30%;
     margin-bottom: 50px;
+}
+@media screen and (max-width: 992px) {
+    h1 {
+        font-size: 90px;
+    }
+    .tick-group {
+        display: block;
+        margin: 0 auto;
+        padding-right: 20px;
+    }
+    .tick-group:nth-child(4){
+        padding-right: 0;
+    }
+    .header-box {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 524px) {
+    h3 {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    .form-black input[type="text"] {
+        width: 70%;
+    }
+    .form-black input[type="submit"] {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 450px) {
+    span.tick-label.tick-text {
+        transform: translateY(-10px);
+    }
+    h1 {
+        font-size: 70px;
+    }
+}
+@media screen and (max-width: 400px) {
+    h3 {
+        font-size: 16px;
+    }
 }
