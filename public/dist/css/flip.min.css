@@ -327,6 +327,7 @@
 .tick [data-style*="shadow:none"] .tick-flip-panel-front-shadow {
     background-image: none;
 }
+
 .tick [data-style*="rounded:none"] {
     border-radius: 0;
 }
