@@ -3,11 +3,11 @@
     src: url("../font/Lalezar-Regular.ttf");
 }
 @font-face {
-    font-family: "irsans";
-    src: url("../font/Iranian\ Sans.ttf");
+    font-family: "Yekan";
+    src: url("../font/Graphik\ Arabic\ Medium.otf");
 }
 input {
-    font-family: "irsans";
+    font-family: "Yekan";
 }
 body {
     overflow-x: hidden;
@@ -458,11 +458,11 @@ a.tick-credits {
     }
 }
 div {
-    font-family: "irsans";
+    font-family: "Yekan";
 }
 .Toastify__toast-container {
-    font-family: "irsans" !important;
+    font-family: "Yekan" !important;
 }
 .Toastify__toast-body {
-    font-family: "irsans" !important;
+    font-family: "Yekan" !important;
 }
