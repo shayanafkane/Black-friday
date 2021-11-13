@@ -4,9 +4,9 @@
 }
 @font-face {
     font-family: "irsans";
-    src: url('../font/Iranian\ Sans.ttf');
+    src: url("../font/Iranian\ Sans.ttf");
 }
-input{
+input {
     font-family: "irsans";
 }
 body {
@@ -421,7 +421,7 @@ a.tick-credits {
         margin: 0 auto;
         padding-right: 20px;
     }
-    .tick-group:nth-child(4){
+    .tick-group:nth-child(4) {
         padding-right: 0;
     }
     .header-box {
@@ -439,6 +439,9 @@ a.tick-credits {
     }
     .form-black input[type="submit"] {
         width: 50%;
+    }
+    .Toastify__toast-container {
+        width: 90% !important;
     }
 }
 @media screen and (max-width: 450px) {
