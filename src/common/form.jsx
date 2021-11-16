@@ -53,10 +53,10 @@ class Form extends React.Component {
         const { tel } = this.state;
         return (
             <div className="box-form-blackfriday">
-                <h3> برای اینکه زودتر از همه از تخفیف ها با خبر شید فرم زیر را پر کنید !</h3>
+                <h3> برای اینکه سریع‌تر از تخفیف‌ها با خبر بشید، همین حالا شماره‌تون رو وارد کنید !</h3>
                 <form action="#" className="form-black" onSubmit={this.handleSubmit}>
-                    <input type="text" value={tel} className="form-control" onChange={this.handleHtmlControlChange} placeholder="شماره تماس خودرا وارد کنید" name="tel" />
-                    <input type="submit" className="btn btn-danger" disabled={this.state.disabled} onClick={() => this.state.disabled = true} value="ارسال اطلاعات" />
+                    <input type="text" value={tel} className="form-control" style={{ fontFamily: "Yekan" }} onChange={this.handleHtmlControlChange} placeholder="شماره تماس خودرا وارد کنید" name="tel" />
+                    <input type="submit" className="btn btn-color" disabled={this.state.disabled} onClick={() => this.state.disabled = true} value="ارسال اطلاعات" />
                 </form>
                 <ToastContainer />
             </div>
