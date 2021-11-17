@@ -7,7 +7,7 @@ class Product extends React.Component {
                 <hr />
                 <div className="product-item conteiner">
                     <div className="row">
-                        <div className="col-lg-6 display-product ">
+                        <div className="col-lg-6 display-product " data-aos="fade-right">
                             <div className="col-lg-4 img-product">
                                 <img src={this.props.img}
                                     className="img-fluid" alt="" />
@@ -25,7 +25,7 @@ class Product extends React.Component {
                                 <button className="btn btn-success btn-price-custom">خرید این محصول</button>
 
                         </div>
-                        <div className="col-lg-6 display-product">
+                        <div className="col-lg-6 display-product" data-aos="fade-left">
                             <div className="col-lg-4 img-product">
                                 <img src={this.props.img2}
                                     className="img-fluid" alt="" />

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="rtl">
-
+<html lang="en" dir="rtl" style="overflow-x: hidden;">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -8,19 +7,23 @@
   <meta name="description" content="Web site created using create-react-app" />
   <link rel="stylesheet" href="assets/css/bootstrap.rtl.min.css">
   <link rel="stylesheet" href="assets/css/flip.min.css">
+  <link rel="stylesheet" href="assets/css/aos.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <title>شگفت جمعه</title>
   <style>
     body {
       overflow-x: hidden;
     }
-    .container-blend{
+
+    .container-blend {
       mix-blend-mode: screen;
     }
+
     .container-blend img {
       mix-blend-mode: screen !important;
 
     }
+
     .img-product {
       filter: blur(8px);
       -webkit-filter: blur(8px);
@@ -31,8 +34,15 @@
 <body class="bg-dark">
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
+  <script src="assets/js/jquery.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
   <script src="assets/js/flip.min.js"></script>
+  <script src="assets/js/aos.js"></script>
+  <script>
+    $(function () {
+      AOS.init();
+    });
+  </script>
   <script>
 
     var deadline = '2021/11/26 00:00:00';

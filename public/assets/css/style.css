@@ -493,7 +493,15 @@ p.text-white.rtl {
         opacity: 1;
     }
 }
-.btn-price-custom{
+.img-product {
+    animation: img-move 2s infinite;
+}
+@keyframes img-move {
+    50% {
+        transform: translateY(5px) matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    }
+}
+.btn-price-custom {
     width: 60%;
     height: 50px;
     margin-bottom: 40px;
