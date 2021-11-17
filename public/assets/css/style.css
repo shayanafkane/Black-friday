@@ -20,7 +20,10 @@ body {
     background-position: top;
 }
 * {
-    color: #e382e3;
+    color: #ec4949;
+}
+img {
+    pointer-events: none;
 }
 .header-box {
     margin-bottom: 100px;
@@ -44,8 +47,8 @@ h1 {
 }
 .btn-color {
     color: #fff;
-    background-color: #9c00ff;
-    border-color: #6908a5;
+    background-color: #ec4949;
+    border-color: #aa0303;
 }
 .box-img-right,
 .box-img-left {
@@ -364,6 +367,9 @@ p.text-white.rtl {
     -webkit-border-radius: 8px;
     border-radius: 8px;
 }
+.box-form-blackfriday2 {
+    margin-top: 50px;
+}
 
 .wheel {
     -webkit-animation: mouse-wheel 0.6s linear infinite;
@@ -486,6 +492,12 @@ p.text-white.rtl {
     100% {
         opacity: 1;
     }
+}
+.btn-price-custom{
+    width: 60%;
+    height: 50px;
+    margin-bottom: 40px;
+    display: none;
 }
 .box-form-blackfriday {
     transform: translateY(-150px);

@@ -13,7 +13,7 @@ const Box = () => {
                 
                 </h1> */}
             </div>
-          
+
             <div className="header-box container">
 
 
@@ -44,16 +44,16 @@ const Box = () => {
             </div>
             <div class="mouse_scroll">
 
-<div class="mouse">
-    <div class="wheel"></div>
-</div>
-<div className="mr-custom" style={{ marginRight: "4px;" }}>
-    <span class="m_scroll_arrows unu"></span>
-    <span class="m_scroll_arrows doi"></span>
-    <span class="m_scroll_arrows trei"></span>
-</div>
-</div>
-            <Form />
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <div className="mr-custom" style={{ marginRight: "4px;" }}>
+                    <span class="m_scroll_arrows unu"></span>
+                    <span class="m_scroll_arrows doi"></span>
+                    <span class="m_scroll_arrows trei"></span>
+                </div>
+            </div>
+            <Form class="box-form-blackfriday" />
             <h2 className="title-product-box">محصولات شگفت جمعه</h2>
             <div className="black-friday-bg">
                 <Product img="assets/img/cat-8.png" offer="200/000 تومان تخفیف" img2="assets/img/cat-1.png" offer2="1/000/000 تومان تخفیف" />
@@ -61,9 +61,8 @@ const Box = () => {
                 <Product img="assets/img/cat-4.png" offer="200/000 تومان تخفیف" img2="assets/img/cat-5.png" offer2="300/000 تومان تخفیف" />
                 <Product img="assets/img/cat-9.png" offer="1/200/000 تومان تخفیف" img2="assets/img/cat-10.png" offer2="1/000/000 تومان تخفیف" />
                 <Product img="assets/img/cat-6.png" offer="10% تخفیف" img2="assets/img/cat-7.png" offer2="20% تخفیف" />
-
+                <Form class="box-form-blackfriday2" />
             </div>
-
         </main>
     );
 }

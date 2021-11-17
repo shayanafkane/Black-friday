@@ -22,6 +22,7 @@ class Product extends React.Component {
                                     </div>
                                 </div>
                             </div>
+                                <button className="btn btn-success btn-price-custom">خرید این محصول</button>
 
                         </div>
                         <div className="col-lg-6 display-product">
@@ -39,7 +40,7 @@ class Product extends React.Component {
                                     </div>
                                 </div>
                             </div>
-
+                            <button className="btn btn-success btn-price-custom">خرید این محصول</button>
                         </div>
                     </div>
                 </div>
