@@ -3,15 +3,24 @@
     src: url("../font/Lalezar-Regular.ttf");
 }
 @font-face {
-    font-family: "Yekan";
-    src: url("../font/Graphik\ Arabic\ Medium.otf");
+    font-family: "pelak";
+    src: url("../font/Pelak-Medium\ -\ Copy.otf");
+}
+@font-face {
+    font-family: "pelak-bold";
+    src: url("../font/Pelak-Black\ -\ Copy.otf");
+}
+.bold {
+    font-family: "pelak-bold";
+    color: white;
+    font-size: 24px;
 }
 .row {
     width: 100%;
     --bs-gutter-x: 0;
 }
 input {
-    font-family: "Yekan";
+    font-family: "pelak";
 }
 body {
     overflow-x: hidden;
@@ -20,7 +29,7 @@ body {
     background-position: top;
 }
 * {
-    color: #ec4949;
+    color: #55d8ff;
 }
 img {
     pointer-events: none;
@@ -31,6 +40,9 @@ img {
 }
 .header-1 {
     transform: translateY(30px);
+}
+.input-txt {
+    font-family: "pelak-bold";
 }
 h1,
 h2,
@@ -45,10 +57,22 @@ h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.btn-color2 {
+    width: 25%;
+    padding: 10px;
+    margin-bottom: 30px;
+    background: #ebebeb;
+    color: #7628dd;
+    border: #fff;
+}
+.btn-color2:hover {
+    color: #ebebeb;
+    background-color: #7628dd;
+}
 .btn-color {
     color: #fff;
-    background-color: #ec4949;
-    border-color: #aa0303;
+    background-color: #7628dd;
+    border: #7628dd;
 }
 .box-img-right,
 .box-img-left {
@@ -103,8 +127,9 @@ div {
     text-align: center;
 }
 span.tick-label.tick-text {
-    font-size: 14px;
+    font-size: 20px;
     transform: translateY(-20px);
+    font-family: "pelak-bold";
 }
 
 a.tick-credits {
@@ -124,7 +149,10 @@ a.tick-credits {
 .form-black input[type="submit"] {
     margin-top: 20px;
     width: 30%;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    background-color: #7628dd;
+    border: #7628dd;
+    font-family: "pelak-bold";
 }
 @media screen and (max-width: 992px) {
     h1 {
@@ -157,9 +185,11 @@ a.tick-credits {
         width: 90% !important;
     }
 }
+
 @media screen and (max-width: 450px) {
     span.tick-label.tick-text {
-        transform: translateY(-10px);
+        transform: translateY(3px);
+        font-size: 14px;
     }
     h1 {
         font-size: 70px;
@@ -169,15 +199,18 @@ a.tick-credits {
     h3 {
         font-size: 16px;
     }
+    .about-h4 {
+        font-size: 20px;
+    }
 }
 div {
-    font-family: "Yekan";
+    font-family: "pelak-bold";
 }
 .Toastify__toast-container {
-    font-family: "Yekan" !important;
+    font-family: "pelak" !important;
 }
 .Toastify__toast-body {
-    font-family: "Yekan" !important;
+    font-family: "pelak" !important;
 }
 .product-item {
     margin-top: 50px;
@@ -211,6 +244,17 @@ hr:not([size]) {
 .box-offer-text h4 {
     color: rgb(228, 228, 228);
     font-size: 40px;
+    margin-top: 60px;
+    font-family: "pelak-bold";
+}
+.title-pl {
+    font-family: "pelak-bold" !important;
+    font-size: 24px !important;
+}
+.small-txt {
+    font-size: 18px;
+    text-align: justify;
+    color: #fff;
 }
 .text-product p {
     text-align: justify;
@@ -228,6 +272,23 @@ p.text-white.rtl {
 .black-friday-bg {
     background: rgba(0, 0, 0, 0.4);
     border-radius: 10px;
+    padding-bottom: 30px;
+}
+.about-h4 {
+    color: white;
+    font-family: "pelak";
+}
+.btn-end {
+    background: transparent;
+    border: transparent;
+    font-family: "pelak-bold";
+    cursor: pointer;
+    color: #55d8ff;
+    text-decoration: none;
+}
+.btn-end:hover {
+    color: #e41f27;
+    transition: 1s ease-out;
 }
 @media screen and (max-width: 900px) {
     .header-1 {
@@ -510,7 +571,21 @@ p.text-white.rtl {
 .box-form-blackfriday {
     transform: translateY(-150px);
 }
+.des {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    width: 50%;
+    margin: 0 auto;
+}
+.des p {
+    padding: 15px;
+    font-size: 24px;
+    font-family: "pelak";
+}
 @media screen and (max-width: 991px) {
+    hr:not([size]) {
+        display: none;
+    }
     .box-form-blackfriday {
         transform: translateY(0);
     }
@@ -530,6 +605,16 @@ p.text-white.rtl {
     }
 }
 @media screen and (max-width: 768px) {
+    .title-pl {
+        font-size: 15px !important;
+    }
+    .des {
+        width: 95%;
+    }
+    .btn-color2 {
+        width: 50%;
+        margin-bottom: 10px;
+    }
     .header-box {
         transform: translateY(-330px);
     }

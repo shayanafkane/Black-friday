@@ -14,11 +14,9 @@ class Product extends React.Component {
                             </div>
                             <div className="col-lg-8 text-product">
                                 <div className="box-text-product">
-                                    <p className="text-white rtl">
-                                        و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
-                                    </p>
+                                    
                                     <div className="box-offer-text">
-                                        <h4>{this.props.offer}</h4>
+                                        <h4 className="badge rounded-pill bg-danger">{this.props.offer}</h4>
                                     </div>
                                 </div>
                             </div>
@@ -32,11 +30,9 @@ class Product extends React.Component {
                             </div>
                             <div className="col-lg-8 text-product">
                                 <div className="box-text-product">
-                                    <p className="text-white rtl">
-                                        و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
-                                    </p>
+                                   
                                     <div className="box-offer-text">
-                                        <h4>{this.props.offer2}</h4>
+                                        <h4 className="badge rounded-pill bg-danger">{this.props.offer2}</h4>
                                     </div>
                                 </div>
                             </div>

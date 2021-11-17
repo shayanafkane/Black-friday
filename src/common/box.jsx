@@ -8,10 +8,7 @@ const Box = () => {
         <main>
             <div className="container-blend">
                 <img src="assets/img/1.gif" style={{ mixBlendMode: "screen" }} className="img-custom" alt="" />
-                {/* <h1 className="neonText">
-                    شگفت
-                
-                </h1> */}
+
             </div>
 
             <div className="header-box container">
@@ -54,14 +51,19 @@ const Box = () => {
                 </div>
             </div>
             <Form class="box-form-blackfriday" />
-            <h2 className="title-product-box">محصولات شگفت جمعه</h2>
+            <div className="des">
+
+                <p className="text-white">این جشنواره در روز <b className="bold" > جمعه 5 آذر </b >  اجرا میشه ! <br /> <span className="small-txt">بیشتر از 100 محصول تخفیف واقعی دارن که خریدشون دلـــچسب میشه . راستی ، اگه تهران هستی همون جمعه برات پیک میشه</span></p>
+            </div>
+            <a className="btn btn-danger btn-color2" href="https://etebarkala.com">ورود به فروشگاه</a>
+            <h2 className="title-product-box">چه کالاهایی تخفیف دارن! </h2>
             <div className="black-friday-bg">
                 <Product img="assets/img/cat-8.png" offer="200/000 تومان تخفیف" img2="assets/img/cat-1.png" offer2="1/000/000 تومان تخفیف" />
                 <Product img="assets/img/cat-2.png" offer="400/000 تومان تخفیف" img2="assets/img/cat-3.png" offer2="150/000 تومان تخفیف" />
                 <Product img="assets/img/cat-4.png" offer="200/000 تومان تخفیف" img2="assets/img/cat-5.png" offer2="300/000 تومان تخفیف" />
                 <Product img="assets/img/cat-9.png" offer="1/200/000 تومان تخفیف" img2="assets/img/cat-10.png" offer2="1/000/000 تومان تخفیف" />
                 <Product img="assets/img/cat-6.png" offer="10% تخفیف" img2="assets/img/cat-7.png" offer2="20% تخفیف" />
-                <Form class="box-form-blackfriday2" />
+                <h4 className="about-h4">اگر مارو نمیشناسی حتما <a className="btn-end" href="https://etebarkala.com/about/">درباره مارو</a> بخون </h4>
             </div>
         </main>
     );
