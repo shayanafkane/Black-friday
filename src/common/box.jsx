@@ -7,7 +7,7 @@ const Box = () => {
     return (
         <main>
             <div className="container-blend">
-                <img src="assets/img/1.gif" style={{ mixBlendMode: "screen" }} className="img-custom" alt="" />
+                <img src="https://res.cloudinary.com/dlsw1zmae/image/upload/v1637396670/etebarkala/Shegeft-Jomeh-Logo-with-EK-Logo-8_khmbz7.gif" style={{ mixBlendMode: "screen" }} className="img-custom" alt="" />
 
             </div>
 
@@ -63,7 +63,7 @@ const Box = () => {
                 <Product img="assets/img/cat-4.png" offer="200/000 تومان تخفیف" img2="assets/img/cat-5.png" offer2="300/000 تومان تخفیف" />
                 <Product img="assets/img/cat-9.png" offer="1/200/000 تومان تخفیف" img2="assets/img/cat-10.png" offer2="1/000/000 تومان تخفیف" />
                 <Product img="assets/img/cat-6.png" offer="10% تخفیف" img2="assets/img/cat-7.png" offer2="20% تخفیف" />
-                <h4 className="about-h4">اگر مارو نمیشناسی حتما <a className="btn-end" href="https://etebarkala.com/about/">درباره مارو</a> بخون </h4>
+                <h4 className="about-h4">اگر ما رو نمیشناسی حتما <a className="btn-end" href="https://etebarkala.com/about/">درباره ما</a>  رو بخون  </h4>
             </div>
         </main>
     );

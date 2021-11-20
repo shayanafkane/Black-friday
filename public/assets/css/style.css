@@ -243,13 +243,13 @@ hr:not([size]) {
 }
 .box-offer-text h4 {
     color: rgb(228, 228, 228);
-    font-size: 35px;
+    font-size: 20px;
     margin-top: 60px;
     font-family: "pelak-bold";
 }
 @media screen and (max-width: 500px) {
     .box-offer-text h4{
-        font-size: 25px;
+        font-size: 20px;
     }
 }
 .title-pl {
