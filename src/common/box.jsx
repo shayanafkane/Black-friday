@@ -53,10 +53,10 @@ const Box = () => {
                     </div>
                 </div>
             </a>
-            <div id="Offer" style={{transform : "translateY(-155px)"}}></div>
+            <div id="Offer" style={{ transform: "translateY(-155px)" }}></div>
 
 
-            <Form class="box-form-blackfriday"  />
+            <Form class="box-form-blackfriday" />
             <div className="des">
 
                 <p className="text-white">این جشنواره در روز <b className="bold" > جمعه 5 آذر </b >  اجرا میشه ! <br /> <span className="small-txt">بیشتر از 100 محصول تخفیف واقعی دارن که خریدشون دلـــچسب میشه . راستی ، اگه تهران هستی همون جمعه برات پیک میشه</span></p>
