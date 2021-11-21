@@ -39,17 +39,20 @@ const Box = () => {
 
 
             </div>
-            <div class="mouse_scroll">
+            <a className="arrow-wrap" href="#Offer">
 
-                <div class="mouse">
-                    <div class="wheel"></div>
+                <div class="mouse_scroll">
+
+                    <div class="mouse">
+                        <div class="wheel"></div>
+                    </div>
+                    <div className="mr-custom" style={{ marginRight: "4px;" }}>
+                        <span class="m_scroll_arrows unu"></span>
+                        <span class="m_scroll_arrows doi"></span>
+                        <span class="m_scroll_arrows trei"></span>
+                    </div>
                 </div>
-                <div className="mr-custom" style={{ marginRight: "4px;" }}>
-                    <span class="m_scroll_arrows unu"></span>
-                    <span class="m_scroll_arrows doi"></span>
-                    <span class="m_scroll_arrows trei"></span>
-                </div>
-            </div>
+            </a>
             <Form class="box-form-blackfriday" />
             <div className="des">
 
@@ -57,7 +60,7 @@ const Box = () => {
             </div>
             <a className="btn btn-danger btn-color2" href="https://etebarkala.com">ورود به فروشگاه</a>
             <h2 className="title-product-box">چه کالاهایی تخفیف دارن! </h2>
-            <div className="black-friday-bg">
+            <div className="black-friday-bg" id="Offer">
                 <Product img="assets/img/cat-8.png" offer="200/000 تومان تخفیف" img2="assets/img/cat-1.png" offer2="1/000/000 تومان تخفیف" />
                 <Product img="assets/img/cat-2.png" offer="400/000 تومان تخفیف" img2="assets/img/cat-3.png" offer2="150/000 تومان تخفیف" />
                 <Product img="assets/img/cat-4.png" offer="200/000 تومان تخفیف" img2="assets/img/cat-5.png" offer2="300/000 تومان تخفیف" />

@@ -10,6 +10,10 @@
     font-family: "pelak-bold";
     src: url("../font/Pelak-Black\ -\ Copy.otf");
 }
+
+*{
+    user-select: none !important;
+}
 .bold {
     font-family: "pelak-bold";
     color: white;
