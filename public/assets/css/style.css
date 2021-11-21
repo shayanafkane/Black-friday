@@ -11,7 +11,7 @@
     src: url("../font/Pelak-Black\ -\ Copy.otf");
 }
 
-*{
+* {
     user-select: none !important;
 }
 .bold {
@@ -252,7 +252,7 @@ hr:not([size]) {
     font-family: "pelak-bold";
 }
 @media screen and (max-width: 500px) {
-    .box-offer-text h4{
+    .box-offer-text h4 {
         font-size: 20px;
     }
 }
@@ -579,6 +579,7 @@ p.text-white.rtl {
 }
 .box-form-blackfriday {
     transform: translateY(-150px);
+    margin-top: 50px;
 }
 
 .des {
