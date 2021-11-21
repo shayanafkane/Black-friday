@@ -580,6 +580,7 @@ p.text-white.rtl {
 .box-form-blackfriday {
     transform: translateY(-150px);
 }
+
 .des {
     background: rgba(0, 0, 0, 0.5);
     border-radius: 10px;

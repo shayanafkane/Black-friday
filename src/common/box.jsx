@@ -53,14 +53,17 @@ const Box = () => {
                     </div>
                 </div>
             </a>
-            <Form class="box-form-blackfriday" />
+            <div id="Offer" style={{transform : "translateY(-155px)"}}></div>
+
+
+            <Form class="box-form-blackfriday"  />
             <div className="des">
 
                 <p className="text-white">این جشنواره در روز <b className="bold" > جمعه 5 آذر </b >  اجرا میشه ! <br /> <span className="small-txt">بیشتر از 100 محصول تخفیف واقعی دارن که خریدشون دلـــچسب میشه . راستی ، اگه تهران هستی همون جمعه برات پیک میشه</span></p>
             </div>
             <a className="btn btn-danger btn-color2" href="https://etebarkala.com">ورود به فروشگاه</a>
             <h2 className="title-product-box">چه کالاهایی تخفیف دارن! </h2>
-            <div className="black-friday-bg" id="Offer">
+            <div className="black-friday-bg" >
                 <Product img="assets/img/cat-8.png" offer="200/000 تومان تخفیف" img2="assets/img/cat-1.png" offer2="1/000/000 تومان تخفیف" />
                 <Product img="assets/img/cat-2.png" offer="400/000 تومان تخفیف" img2="assets/img/cat-3.png" offer2="150/000 تومان تخفیف" />
                 <Product img="assets/img/cat-4.png" offer="200/000 تومان تخفیف" img2="assets/img/cat-5.png" offer2="300/000 تومان تخفیف" />
